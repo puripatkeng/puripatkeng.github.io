@@ -1,0 +1,124 @@
+* {
+    margin: 0px;
+  }
+  
+  nav li {
+    display: inline;
+    padding-right:16px;
+}
+
+  body {
+    font-family: 'Avenir Next LT Pro', sans-serif;
+    max-width: 1280px;
+    margin: auto;
+  }
+
+
+
+
+  
+#banner-container {
+    display: flex;
+    align-items: center;
+    padding: 32px 24px;
+    background-color: #d7d7d7;
+}
+  
+#banner-container img {
+    width: 60%;
+}
+  
+#banner-container #banner-text {
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 24px;
+}
+  
+#banner-container #banner-text h1 {
+    margin-top: 24px;
+    color: #4a4a4a;
+}
+  
+#banner-container #banner-text p {
+    color: #4a4a4a;
+    margin-top: 24px;
+}
+  
+#banner-container #banner-text button {
+    color: white;
+    background-color: #4a4a4a;
+    border: unset;
+    padding: 8px 0px;
+    margin-top: 24px;
+}
+
+
+
+
+
+#container-2{
+    background-color: white;
+    padding-top: 32px;
+    padding-left: 24px;
+    padding-right: 24px;
+    
+}
+
+.box1 .img1 img{
+    width: 60%;
+}
+
+.box1 .txt2 h1{
+    padding-top: 32px;
+  
+}
+.box1 .txt2 p{
+    padding-top: 24px;
+    padding-bottom: 32px;
+    width: 60%;
+}
+
+.container2,.box2 .txt2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 65%;
+  }
+#container-2,.box2,.img2 img{
+    width: 35%;
+}
+
+
+
+
+
+
+
+
+
+#container-3{
+    padding: 32px 72px;
+    background-color: #d7d7d7;
+}
+
+#container-3 h1{
+    padding-top: 32px;
+    padding-bottom: 32px;
+    text-align: center;
+}
+
+.courses-3 {
+    display: flex;
+    flex-direction: column;
+  }
+
+.courses-3 .text3 {
+    padding: 16px 16px 24px 16px;
+  }
+
+
+video {
+    width: 60%     ;
+    height: auto   ;
+  }
